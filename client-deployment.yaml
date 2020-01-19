@@ -1,0 +1,44 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.20.0 ()
+  creationTimestamp: null
+  labels:
+    io.kompose.service: client
+  name: client
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert
+        kompose.version: 1.20.0 ()
+      creationTimestamp: null
+      labels:
+        io.kompose.network/filmsitemaster_webappnetwork: "true"
+        io.kompose.service: client
+    spec:
+      containers:
+      - command:
+        - npm
+        - run
+        - startDev
+        image: client
+        name: client
+        ports:
+        - containerPort: 3000
+        resources: {}
+        volumeMounts:
+        - mountPath: /client/src
+          name: client-claim0
+        workingDir: /client/src
+      restartPolicy: Always
+      volumes:
+      - name: client-claim0
+        persistentVolumeClaim:
+          claimName: client-claim0
+status: {}
