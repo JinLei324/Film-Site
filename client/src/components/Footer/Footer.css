@@ -1,0 +1,35 @@
+.mainFooter {
+  background-color: black;
+  bottom: 0;
+  position: fixed;
+  color: #fab92b;
+  text-transform: uppercase;
+  width: 100%;
+}
+.mainFooter2 {
+  width: 100%;
+  position: relative;
+}
+.footHighlight {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.mainFooter p {
+  margin: 7px 10%;
+}
+#footer_contact_us_btn {
+  color: #fff;
+  background: linear-gradient(109.65deg, #1b75bc 0%, #00aeef 100%);
+  transition: 0.3s;
+}
+#footer_contact_us_btn:hover {
+  background: linear-gradient(109.65deg, #0e96ff 0%, #00aeef 100%);
+}
+
+#footer_logo_img {
+  margin-left: -1em;
+  margin-bottom: -2em;
+  width: 6em;
+}

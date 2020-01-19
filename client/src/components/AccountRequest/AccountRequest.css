@@ -1,0 +1,45 @@
+.mainAccountRequest {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.userAccountCard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.userAccountCard_member {
+    border: 2px solid black;
+    display: flex;
+    margin: 1em;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3px 15px;
+    width: 26.78em;
+}
+
+.userAccountCard_btnGroup {
+    margin-top: 1em;
+}
+
+.cardBtn {
+    margin: 0.5px;
+}
+
+.anticon svg {
+    color: black;
+}
+
+
+.ant-modal-confirm .ant-modal-confirm-btns button {
+    background-color: black;
+    border: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.ant-modal-confirm .ant-modal-confirm-btns button:hover {
+    background-color: rgba(0, 0, 0, 0.699);
+}

@@ -1,0 +1,16 @@
+.mainVideoPosterChange {
+  text-align: center;
+}
+#adminPosterChangePlayer {
+  width: 100%;
+  height: 17em;
+}
+#adminPosterChangePlayer video {
+  width: 30em;
+}
+
+.mainVideoPosterChange input {
+  /* cursor: pointer; */
+  height: 2.02em;
+  width: 18em;
+}

@@ -1,0 +1,189 @@
+.mainUserInfo {
+    text-align: center;
+    margin-top: 2em;
+    height: 100%;
+    width: 100%;
+}
+#messageContent textarea {
+    width: 100%;
+}
+
+/* Small Editr Buttons Style */
+#photoBtn, 
+#createBtn,
+#vEditBtn,
+#vImExBtn,
+#vDelBtn 
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #1b75bc 0%, #00aeef 100%);
+    border: none;
+    text-align: center;
+  }
+
+#photoBtn {
+    margin-left: -30px;
+    vertical-align: bottom;
+  }
+
+#createBtn {
+    margin-left: 10px;
+    vertical-align: bottom;
+}
+
+#vEditBtn {
+    position: absolute;
+    top: 10px;
+    right: -12px;
+}
+#vImExBtn {
+    position: absolute;
+    top: 40px;
+    right: -12px;
+}
+#vDelBtn {
+    position: absolute;
+    top: 70px;
+    right: -12px;
+}
+
+#photoBtn:hover, 
+#createBtn:hover,
+#vEditBtn:hover,
+#vImExBtn:hover,
+#vDelBtn:hover
+{
+    background: linear-gradient(
+      109.65deg,
+      rgb(34, 147, 233) 0%,
+      rgb(0, 187, 255) 100%
+    );
+    cursor: pointer;
+}
+
+#photoBtn:focus, 
+#createBtn:focus,
+#vEditBtn:focus,
+#vImExBtn:focus,
+#vDelBtn:focus
+{
+    outline: none;
+}
+
+/* Dialog Style */
+.grid-container {
+    display: grid;
+    grid: 60px / auto auto;
+    grid-gap: 10px;
+
+}
+
+.grid-container > div {
+    text-align: left;
+
+}
+
+.opt-item1,
+.opt-item2,
+.opt-item3,
+.opt-item4
+{ 
+    width: 260px;
+    height: 32px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    border-color: #ddd;
+}
+#filmContainer {
+    margin-bottom: 20px;
+}
+
+#filmContainer input {
+    width: 100%;
+    height: 32px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+.grid-container p,
+#filmContainer p,
+#dscrtContainer p
+{
+    margin-bottom: 5px;
+}
+
+#dscrtContent {
+    height: 80px;
+    background-color: #ddd;
+    border-radius: 15px;
+    padding: 10px 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.dscrtThumbnail {
+    height: 80px;
+    background-color: #ddd;
+}
+.dscrt-item1
+{
+    width: 70%;
+    display: inline-block;
+}
+.dscrt-item2
+{
+    width: 26%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 3.5%;
+}
+
+
+.opt-item1:focus,
+.opt-item2:focus,
+.opt-item3:focus,
+.opt-item4:focus,
+#filmContainer input:focus
+{ 
+    outline: none;
+}
+
+.delDialog-content p {
+    text-align: center;
+    width: 580px;
+    margin: 0;
+}
+.MuiDialogTitle-root {
+    padding: 10px 20px !important;
+}
+.MuiIconButton-root {
+    padding: 5px!important;
+}
+
+.replaceDialog-content {
+    width: 550px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 8px 0;
+}
+
+.replaceDialog-content p{
+    padding: 5px 10px;
+    margin: 0;
+}
+
+.replaceDialog-content p:hover{
+    background-color: #eee;
+}
+
+
+
+
+

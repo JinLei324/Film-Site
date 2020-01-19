@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+#mainContainer {
+  margin-top: 6.5em;
+}
+
+.fontFam {
+  font-family: "Poppins", sans-serif;
+}
+
+#videoTitle {
+  color: #333331;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+#recTitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #969696;
+  margin-top: 0.4em;
+  margin-bottom: 1.6em;
+}
+
+.recVidTitle {
+  margin: 0.7em 0em 0.3em 0em;
+  display: block;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: #333331;
+}
+
+.recVidAuthor {
+  font-size: 14px;
+  line-height: 21px;
+  color: #969696;
+}
+
+.views {
+  float: right;
+}
+
+img {
+  width: 100%;
+}
+
+#vidContainer {
+  margin-bottom: 1.5em;
+}
+
+.recVidContainer {
+  margin-bottom: 2.5em;
+}
+
+#btnContainer {
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 1.5em;
+}
+
+.btnCntText {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #969696;
+}
+
+#likeBtn {
+  width: 140px;
+  height: 50px;
+  background: linear-gradient(109.65deg, #1b75bc 0%, #00aeef 100%);
+  box-shadow: 0px 4px 10px rgba(27, 117, 188, 0.25);
+  border-radius: 30px;
+  border-width: 0px;
+  transition: 0.3s;
+}
+#likeBtn:hover {
+  background: linear-gradient(
+    109.65deg,
+    rgb(34, 147, 233) 0%,
+    rgb(0, 187, 255) 100%
+  );
+  cursor: pointer;
+}
+#likeIcon {
+  width: 14px;
+  height: 14px;
+  margin-left: 12px;
+  margin-top: -7px;
+}
+
+#likeTxt {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.iconsContainer {
+  align-self: center;
+  margin-left: 2em;
+}
+
+#likesIcon {
+  height: 16px;
+  width: 16px;
+  margin-right: 5px;
+  margin-top: -4px;
+}
+
+#playsIcon {
+  height: 16px;
+  width: 14px;
+  margin-right: 5px;
+  margin-top: -4px;
+}
+
+#commentsIcon {
+  height: 16px;
+  width: 18px;
+  margin-right: 5px;
+  margin-top: -4px;
+}
+
+#shareIcon {
+  margin-left: 12px;
+  height: 14px;
+  width: 13px;
+  margin-top: -4px;
+}
+
+#shareTxt {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #00aeef;
+}
+
+#shareBtn {
+  margin-left: auto;
+  width: 138px;
+  height: 48px;
+  background: #ffffff;
+  border: 2px solid #00aeef;
+  box-sizing: border-box;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+#shareBtn:hover {
+  background: linear-gradient(
+    109.65deg,
+    rgb(34, 147, 233) 0%,
+    rgb(218, 245, 255) 100%
+  );
+  cursor: pointer;
+  color: white;
+}
+#shareBtn:hover #shareTxt {
+  color: white;
+}
+#dscrContainer {
+  border-bottom: 1px solid #e5e5e5;
+  margin-top: 1.5em;
+}
+
+.dpContainer {
+  display: inline-block;
+  
+  height: 50px;
+  margin-right: 1.8em;
+}
+
+.dp {
+  border-radius: 50%;
+}
+
+#uploaderName {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  color: #333331;
+}
+
+#uploaderDescCntnr {
+  margin: 1.5em 0em;
+}
+
+#catInfo {
+  padding-bottom: 1em;
+}
+
+#catInfoDiv {
+  display: flex;
+ 
+  
+}
+
+#pgInfoDiv {
+  display: flex;
+  width: 52px;
+  height: 20px;
+  border: 1px solid #969696;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 9px;
+  margin-left: 0.8em;
+}
+
+.catInfoTxt {
+  vertical-align: middle;
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 0.03em;
+  color: #969696;
+  border: 1px solid #969696;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-right: 10px;
+}
+
+#noOfCmnts {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #969696;
+}
+
+#cmntsTxtCntnr {
+  display: inline-block;
+  margin: 0.9em 0em;
+}
+
+.newCmntTxt {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #333331;
+  padding-bottom: 0.8em;
+}
+
+.cmntInptCntnr {
+  width: 91%;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-bottom: 1.5em;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  height: 3.2em;
+  background: #f3f3f3;
+  border-radius: 30px;
+  border: 0px;
+  padding-left: 2em;
+}
+
+.alignTop {
+  vertical-align: top;
+}
+
+.borderTop {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 1.4em;
+}
+
+.CmntTxt {
+  overflow-wrap: break-word;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333331;
+  padding-bottom: 0.6em;
+}
+
+.topDpAlign {
+  margin-top: 22px;
+}
+
+.timeSince {
+  margin-left: 1em;
+  font-size: 13px;
+  line-height: 19px;
+  color: #969696;
+}
+
+.fluidDiv {
+  display: flex;
+}
+/* .videoPlayerMain {
+  text-align: center;
+}
+
+.videoPlayerMain h1 {
+  margin: 1em;
+}
+
+.playerDivMain {
+  background-color: rgba(0, 0, 0, 0.678);
+  margin: 2em;
+  width: auto;
+  display: flex;
+  align-items: stretch;
+}
+
+#videoDiv {
+  float: left;
+  height: 70vh;
+  padding: 2em;
+  width: 65%;
+}
+
+#videoDescriptionDiv {
+  color: white;
+  float: left;
+  height: 70vh;
+  width: 30%;
+}
+
+#videoDescriptionDiv h1 {
+  color: white;
+}
+
+#heartVideo {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+#heartVideoIcon {
+  color: red;
+  font-size: 30px;
+  position: absolute;
+  margin: 0px -40px;
+}
+
+#likesCount {
+  margin: 8px 45px;
+  position: absolute;
+}
+
+#mainUserInfo {
+  position: relative;
+  font-size: 25px;
+  margin: 2em -60px;
+}
+
+#mainUserInfo a {
+  color: black;
+  font-weight: 600;
+}
+
+#videoPlayPostedByHeading {
+  margin: 0 10px;
+}
+
+#seriesLink {
+  position: relative;
+  top: -2em;
+}
+#seriesLink a{
+  color: white;
+}
+@media screen and (max-width: 800px) {
+  .playerDivMain {
+    flex-direction: column;
+  }
+
+  #videoDiv {
+    float: none;
+    display: block;
+    height: 70vh;
+    width: 100%;
+  }
+
+  #videoDescriptionDiv {
+    color: white;
+    float: none;
+    text-align: center;
+    height: 70vh;
+    width: 100%;
+  }
+} */

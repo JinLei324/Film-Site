@@ -1,0 +1,33 @@
+.mainHomeDiv {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.videoSectionMain {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.videoCardHome {
+  width: 15em;
+  margin: 5px;
+}
+/* .videoCardHome label {
+  font-size: 1.7em;
+  color: black;
+} */
+.videoTagHome {
+  border-radius: 20px;
+}
+
+.mainHomeDiv a {
+  margin: 1em;
+}
+
+@media screen and (max-width: 900px) {
+  #featured_div_main {
+    justify-content: center !important;
+  }
+}

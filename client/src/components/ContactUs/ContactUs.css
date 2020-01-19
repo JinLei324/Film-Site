@@ -1,0 +1,20 @@
+.mainSignin {
+  text-align: center;
+}
+
+#man_contact_us_div {
+  margin-top: 10em;
+}
+
+#contact_us_btn {
+  color: #fff;
+  background: linear-gradient(109.65deg, #1b75bc 0%, #00aeef 100%);
+  transition: 0.3s;
+}
+
+#contact_us_btn:hover {
+  background: linear-gradient(109.65deg, #0e96ff 0%, #00aeef 100%);
+}
+
+@media screen and (max-width: 660px) {
+}

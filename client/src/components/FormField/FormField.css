@@ -1,0 +1,59 @@
+.mainFormField {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.mainFormField input,
+.mainFormField textarea,
+.mainFormField select,
+.signUpUserTitle {
+  border-radius: 10px;
+  border: solid black 2px;
+  display: block;
+  height: 1.7em;
+  text-align: center;
+  transition: 0.3s;
+  margin: 1em auto;
+  outline: none;
+}
+
+.mainFormField select {
+  padding: 0px 5px;
+  width: 100%;
+}
+
+.mainFormField textarea {
+  padding: 5px;
+  height: 10em;
+  transition: 0.3s !important;
+  width: 19em;
+}
+
+.mainFormField input:focus,
+.mainFormField textarea:focus {
+  border-left: 10px solid black;
+}
+
+
+.mainFormField input::-webkit-file-upload-button {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: .2em 1em;
+  transition: .3s;
+  outline: none;
+}
+
+.mainFormField input::-webkit-file-upload-button:hover {
+  background-color: rgba(0, 0, 0, 0.699);
+  color: white;
+  cursor: pointer;
+}
+
+.mainFormField option {
+  text-transform: uppercase;
+}
+
+.signUpUserTitle {
+  width: 12em !important;
+}

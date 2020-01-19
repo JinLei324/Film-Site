@@ -1,0 +1,5 @@
+{
+    "MAIL_HOST": "add you host eg gmail",
+    "EMAIL_ID": "add your email here eg amir@gmail.com",
+    "EMAIL_PASS": "password will be here"
+}

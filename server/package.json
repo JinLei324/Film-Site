@@ -1,0 +1,71 @@
+{
+  "name": "filmy-lyf",
+  "version": "1.0.0",
+  "description": "Rest API using nodeJs, mongoDB.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "NODE_ENV=development nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "NA"
+  ],
+  "author": "4Bits",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "base64-img": "^1.0.4",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "date-fns": "^1.30.1",
+    "dotenv-safe": "^6.1.0",
+    "ejs": "^2.6.2",
+    "expeditious-engine-redis": "^0.1.2",
+    "express": "^4.17.1",
+    "express-expeditious": "^5.1.0",
+    "express-validator": "^6.1.1",
+    "helmet": "^3.20.0",
+    "i18n": "^0.8.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.6",
+    "mongoose-dateonly": "^1.0.6",
+    "mongoose-paginate-v2": "^1.3.0",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.3.0",
+    "nodemailer-mailgun-transport": "^1.4.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "remark-cli": "^7.0.0",
+    "request-ip": "^2.1.3",
+    "swagger-jsdoc": "^3.4.0",
+    "swagger-ui-express": "^4.1.2",
+    "trim-request": "^1.0.6",
+    "uuid": "^3.3.2",
+    "validator": "^11.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^6.1.0",
+    "eslint-config-formidable": "^4.0.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "faker": "^4.1.0",
+    "husky": "^3.0.1",
+    "mocha": "^6.2.0",
+    "mongo-seeding": "^3.2.0",
+    "nodemon": "^1.19.1",
+    "nyc": "^14.1.1",
+    "prettier": "^1.18.2",
+    "prettier-eslint": "^9.0.0"
+  }
+}

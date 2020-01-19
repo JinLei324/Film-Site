@@ -1,0 +1,62 @@
+.mainVideoRequest {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.videoAccountCard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.videoAccountCard_member {
+    border: 2px solid black;
+    display: flex;
+    margin: 1em;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3px 15px;
+}
+
+.videoAccountCard_member h2 {
+    margin: 0.5em;
+}
+
+
+.videoAccountCard_btnGroup .videoAccountCard_member>video {
+    margin: 1em
+}
+
+.videoCardMediumRequest {
+    margin: 1em;
+}
+
+.cardBtn {
+    margin: 1px;
+}
+
+.cardDetailTitle {
+    position: absolute;
+    top: 1em;
+}
+
+.cardDetailTitle2 {
+    position: absolute;
+    top: 4em;
+}
+
+.cardDetailTitleValue {
+    padding-left: 6em;
+    word-break: break-all;
+}
+
+
+.cardDetailTitleValue2 {
+    padding-left: 4em;
+    word-break: break-all;
+}
+
+.messageIndecator {
+    color: red;
+}

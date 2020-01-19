@@ -1,0 +1,35 @@
+.mainCategoryCard {
+  display: flex;
+  margin: 1em 5px;
+  flex-direction: column;
+}
+
+.categoryContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+  transition: 0.3s;
+}
+
+.categoryContainer:hover {
+  opacity: 0.7;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.imgCategoryCard {
+  cursor: pointer;
+  height: 200;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.imgCategoryCard:hover {
+  -webkit-box-shadow: -1px 21px 41px 6px rgba(199, 199, 199, 0.79);
+  -moz-box-shadow: -1px 21px 41px 6px rgba(199, 199, 199, 0.79);
+  box-shadow: -1px 21px 41px 6px rgba(199, 199, 199, 0.79);
+}

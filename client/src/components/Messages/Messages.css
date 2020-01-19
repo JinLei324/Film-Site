@@ -1,0 +1,212 @@
+.mainMessages {
+    text-align: center;
+}
+
+#messageDisplayDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2em;
+}
+
+#messageDisplayDiv sup {
+    color: white
+}
+
+.message {
+    border: 2px solid black;
+    padding: 1em;
+    margin: 1.5em;
+    word-break: break-all;
+}
+
+
+#replyForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#replyContent textarea {
+    width: 100%;
+}
+
+/* Message Box Style */
+::placeholder {
+    color: #bbb;
+}
+
+.msg-container {
+    box-sizing: border-box;
+    margin: 90px auto;
+    width: 900px;
+    border: 1px solid #ccc;
+}
+.left-container {
+    width: 28%;
+    float: left;
+    border-right: 1px solid #eee;
+}
+.person-search {
+    padding: 14px;
+    border-bottom: 1px solid #eee;
+}
+
+.person-search input {
+    color: #000;
+}
+.person-search input:focus {
+    outline: none;
+}
+.person-list {
+    height: 470px;
+    list-style-type: none;
+    padding: 0;
+}
+.person-item {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0 8px 0;
+}
+.person-img img {
+    border-radius: 50%;
+    width: 40px;
+}
+.person-img {
+    position: relative;
+}
+.status {
+    position: absolute;
+    bottom: -4px;
+    right: 0;
+}
+.online {
+    color: #0a0;
+}
+.offline {
+    color: #a00;
+}
+.status .MuiSvgIcon-root {
+    font-size: 0.7rem!important;
+}
+.about {
+    width: 165px;
+    margin-left: 10px;
+}
+.about-name {
+    font-size: 14px;
+    font-weight: 600;
+}
+.about-time {
+    padding: 10px;
+    font-size: 12px;
+    color: #bbb;
+}
+.about-msg {
+    height: 35px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #888;
+    font-size: 12px;
+}
+.person-list li {
+    padding-bottom: 20px;
+    padding: 0 15px;
+}
+.person-list li:hover {
+    background-color: #f1f1f1;
+    border-left: 2px solid #00aeef;
+}
+
+.person-list img {
+    float: left;
+}
+
+
+.right-container {
+    width: 72%;
+    float: left;
+}
+.chat-header {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+.header-name {
+    font-size: 16px;
+    font-weight: 700;
+}
+.header-status {
+    font-size: 12px;
+    color: #bbb;
+}
+.chat-history {
+    padding: 15px;
+    background-color: #f1f1f1;
+    height: 400px;
+}
+.chat-history ul {
+    list-style-type: none;
+    padding: 0;
+}
+.msg-info {
+    padding-bottom: 15px;
+}
+.msg-info-img img {
+    border-radius: 50%;
+    width: 25px;
+}
+.msg-info-name {
+    padding-left: 10px;
+    font-weight: 600;
+}
+.msg-info-time {
+    padding-left: 10px;
+    font-size: 12px;
+    color: #bbb;
+}
+
+.my-msg {
+    background-color: #fff;
+    border-radius: 15px 0 15px 15px;
+    padding: 15px;
+    width: 65%;
+    border: 1px solid #ddd;
+}
+.other-msg {
+    background-color: #00aeef;
+    border-radius: 0 15px 15px 15px;
+    padding: 15px;
+    width: 65%;
+    color: white;
+}
+.chat-msg {
+    padding: 20px;
+}
+.align-right {
+    text-align: right;
+}
+.align-left {
+    text-align: left;
+}
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
+
+.clearfix:after,
+.clearfix:before
+{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+
+

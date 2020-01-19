@@ -1,0 +1,17 @@
+.mainAdmin {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.mainAdmin a:not(:last-child) {
+    margin: 1em;
+}
+
+.adminVideoBtnDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}

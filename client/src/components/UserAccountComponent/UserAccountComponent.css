@@ -1,0 +1,24 @@
+.mainUserAccountComponentDiv {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+#videoSectionMain {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.videoCardHome {
+  width: 15em;
+  margin: 5px;
+}
+
+.videoTagHome {
+  border-radius: 20px;
+}
+
+.mainUserAccountComponentDiv sup {
+  color: red;
+}

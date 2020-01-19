@@ -1,0 +1,48 @@
+version: "2"
+services:
+  client:
+    build:
+      context: ./client/
+      dockerfile: Dockerfile
+    image: client
+    restart: always
+    ports:
+      - "3000:3000"
+    working_dir: /client/src
+    volumes:
+      - ./client:/client/src
+    entrypoint: ["npm", "run", "startDev"]
+    links:
+      - api
+    networks:
+      - webappnetwork
+  api:
+    build:
+      context: ./server/
+      dockerfile: Dockerfile
+    image: webapp-api
+    restart: always
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./server:/server
+      - /server/node_modules
+      - ./server/videos:/server/videos
+      - ./server/poster:/server/poster
+    depends_on:
+      - mongodb
+    networks:
+      - webappnetwork
+  mongodb:
+    image: mongo
+    restart: always
+    container_name: mongodb
+    volumes:
+      - ./data-node:/data/db
+    ports:
+      - 27017:27017
+    networks:
+      - webappnetwork
+networks:
+  webappnetwork:
+    driver: bridge

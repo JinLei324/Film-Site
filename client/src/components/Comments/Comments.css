@@ -1,0 +1,58 @@
+/* .mainComments {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+#commentInput {
+  border: none;
+  border-bottom: 2px solid;
+  border-radius: 0px;
+  height: 2.4em;
+  transition: .3s;
+  width: 95%;
+}
+
+#commentInput:focus {
+  border-bottom: 3.5px solid;
+}
+
+.commentDiv {
+  background: #00000017;
+  text-align: left;
+  padding: 3px 20px;
+  margin: 1em;
+} */
+button, button:hover, button:active, button:focus {
+  outline: 0;
+}
+
+#cmntBtn {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #1b75bc 0%, #00aeef 100%);
+  border: none;
+  margin-left: -40px;
+  vertical-align: middle;
+  margin-top: -4px;
+}
+#cmntBtn:hover{
+  background: linear-gradient(
+    109.65deg,
+    rgb(34, 147, 233) 0%,
+    rgb(0, 187, 255) 100%
+  );
+  cursor: pointer;
+}
+#cmntIcon {
+  height: 12px;
+  width: 12px;
+  margin-top: -3px;
+  margin-left: 1px;
+}
+
+#commentInput:focus {
+  outline: none;
+}

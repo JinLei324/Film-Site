@@ -1,0 +1,22 @@
+.mainNotifications {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.notificationDiv {
+    border: 2px solid;
+    border-radius: 30px;
+    margin: 1em 0;
+    padding: 1em;
+    transition: .17s;
+    width: 90%;
+}
+
+.notificationDiv:hover {
+    border: none;
+    background: #070707d6;
+    color: white;
+    /* cursor: pointer; */
+}

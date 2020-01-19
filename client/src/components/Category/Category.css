@@ -1,0 +1,11 @@
+.mainSignin {
+  /* background-color: rgba(0, 0, 0, 0.466); */
+  text-align: center;
+  width: 100%;
+}
+
+.mainSignin div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
