@@ -14,7 +14,7 @@
     "firebase": "^5.8.3",
     "image-to-base64": "^2.0.1",
     "lodash": "^4.17.11",
-    "nodemailer": "^5.1.1",
+    "nodemailer": "^6.4.16",
     "nodemon": "^1.18.10",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
