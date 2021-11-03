@@ -50,7 +50,7 @@
     "swagger-ui-express": "^4.1.2",
     "trim-request": "^1.0.6",
     "uuid": "^3.3.2",
-    "validator": "^11.1.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",
