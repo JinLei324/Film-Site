@@ -29,7 +29,7 @@
     "dotenv-safe": "^6.1.0",
     "ejs": "^2.6.2",
     "expeditious-engine-redis": "^0.1.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-expeditious": "^5.1.0",
     "express-validator": "^6.1.1",
     "helmet": "^3.20.0",
